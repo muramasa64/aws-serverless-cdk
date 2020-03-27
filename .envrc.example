@@ -1,0 +1,2 @@
+export CDK_MY_VIDEO_UPLOAD_BUKCET_NAME=serverless-video-upload
+export CDK_MY_VIDEO_TRANSCODED_BUKCET_NAME=serverless-video-transcode

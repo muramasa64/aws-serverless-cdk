@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { AwsServerlessCdkStack } from '../lib/aws-serverless-cdk-stack';
+import { AwsServerlessStorageStack } from '../lib/aws-serverless-storage-stack';
 
 const app = new cdk.App();
-new AwsServerlessCdkStack(app, 'AwsServerlessCdkStack');
+new AwsServerlessStorageStack(app, 'AwsServerlessStorageStack');
